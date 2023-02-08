@@ -2,6 +2,8 @@ import React from 'react'
 
 function Aside() {
   return (
+
+    // this shows the content to the left of world map
     <div className='aside'>
       <p>All users <span>DETAIL &gt; </span></p>
       <p id='users'>2,431,340</p>
@@ -27,9 +29,42 @@ function Aside() {
         </div>
       </div>
 
-      <div className="progress-circle">
-       
+
+      {/*  circular indecators are added here  */}
+      <div className="bootom-indicators">
+        <div className="bottom-content-wrap">
+          <div class="circle-wrap">
+            <div class="circle">
+              <div class="mask full">
+                <div class="fill"></div>
+              </div>
+              <div class="mask half">
+                <div class="fill"></div>
+              </div>
+              <div class="inside-circle"> 27% </div>
+            </div>
+          </div>
+          <div className='bottom-circle-text'>   <p className='circle-text'>92,980</p>
+            <p className='circle-text'>Active users</p></div>
+        </div>
+
+        <div className="bottom-content-wrap">
+          <div class="circle-wrap">
+            <div class="circle">
+              <div class="mask full">
+                <div class="fill"></div>
+              </div>
+              <div class="mask half">
+                <div class="fill"></div>
+              </div>
+              <div class="inside-circle"> 67% </div>
+            </div>
+          </div>
+          <div className='bottom-circle-text'>   <p className='circle-text'>22,652</p>
+            <p className='circle-text'>New users</p></div>
+        </div>
       </div>
+
 
     </div>
   )

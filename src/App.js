@@ -6,6 +6,8 @@ import './components/Worldmap/Worldmap.css'
 import Asidedata from './components/Asidedata/Aside'
 import './components/Asidedata/Aside.css'
 import Footer from './components/Footer/Footer';
+import './components/Footer/Footer.css'
+import  Chart  from './components/Chart/Chart';
 import './App.css';
 
 
@@ -15,7 +17,7 @@ function App() {
       <Navbar />
       <Map />
       <Asidedata />
-      {/* Main content */}
+      <Chart/>
       <Footer />
     </div>
   );
