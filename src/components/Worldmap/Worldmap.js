@@ -1,6 +1,7 @@
 import React from 'react'
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps'
 
+// url for where world map is imported by react-simple-maps library
 const geoUrl = "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
 
 function Worldmap() {

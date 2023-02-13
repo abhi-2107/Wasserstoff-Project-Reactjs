@@ -6,6 +6,7 @@
 body {
   background: #e2e4f0;
 
+  /* Google fonts used in the web along with their weights are imported here  */
   @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Poppins:wght@300;500;600&family=Roboto:wght@400;700&display=swap");
 
   /* font-family: 'Archivo', sans-serif; */
